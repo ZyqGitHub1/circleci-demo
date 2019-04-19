@@ -1,0 +1,27 @@
+{
+  "name": "circleci-demo",
+  "version": "0.1.0",
+  "description": "A simple project to play with circleci+netlify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZyqGitHub1/circleci-demo.git"
+  },
+  "keywords": [
+    "circle"
+  ],
+  "author": "zyq <qqdhsy@126.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZyqGitHub1/circleci-demo/issues"
+  },
+  "homepage": "https://github.com/ZyqGitHub1/circleci-demo#readme",
+  "devDependencies": {
+    "vuepress": "^1.0.0-alpha.47"
+  }
+}
